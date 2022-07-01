@@ -1,7 +1,4 @@
-**1. Choose a dataset of your choice from the list given. Identify which
-is the predicted**
-
-**variable and which are the feature attributes.**
+## 1. Choose a dataset of your choice from the list given. Identify which is the predicted variable and which are the feature attributes.
 
 Chose Advanced Regression Techniques competition
 
@@ -11,14 +8,7 @@ It includes data_description.txt, sample_submission.csv, test.csv,
 train.csv. Only train.csv contains full set of data therefore we can use
 is as training and testing sets.
 
-**2. Analyze the dataset in detail. This would involve finding
-distribution of data and**
-
-**correlation between variables. You might want to consider the pairplot
-method available**
-
-**in the Seaborn library:
-<https://seaborn.pydata.org/generated/seaborn.pairplot.html>**
+## 2. Analyze the dataset in detail. This would involve finding distribution of data and correlation between variables. You might want to consider the pairplot method available in the Seaborn library: <https://seaborn.pydata.org/generated/seaborn.pairplot.html>
 
 Corellation for sale price
 
@@ -30,7 +20,7 @@ LotFrontage 0.351799
 
 LotArea 0.263843
 
-**OverallQual 0.790982**
+## OverallQual 0.790982
 
 OverallCond -0.077856
 
@@ -54,7 +44,7 @@ TotalBsmtSF 0.613581
 
 LowQualFinSF -0.025606
 
-**[GrLivArea 0.708624]{.ul}**
+##[GrLivArea 0.708624]{.ul}
 
 BsmtFullBath 0.227122
 
@@ -76,7 +66,7 @@ GarageYrBlt 0.486362
 
 GarageCars 0.640409
 
-**[GarageArea 0.623431]{.ul}**
+## [GarageArea 0.623431]{.ul}
 
 WoodDeckSF 0.324413
 
@@ -104,13 +94,7 @@ Name: SalePrice, dtype: float64
 
 Figure 1. Pairplot of selected features.
 
-**7. Compare the performance of the two models on the training and test
-dataset. You**
-
-**should use evaluation metrics such as R-Squared, Mean Squared Error,
-and any other**
-
-**metrics that you feel are relevant**.
+##7. Compare the performance of the two models on the training and test dataset. You should use evaluation metrics such as R-Squared, Mean Squared Error, and any other metrics that you feel are relevant.
 
 LinearRegression
 
@@ -136,14 +120,10 @@ MSE: 1105601663.0657866
 
 RMSE: 33250.588913067186
 
-**8. In the report, write a brief paragraph detailing which approach
-gives you better results**
+## 8. In the report, write a brief paragraph detailing which approach gives you better results and any other relevant findings.
 
-**and any other relevant findings.**
-
-It was very difficult to make SGDRegressor converge. Hence, I decided to
-use pipeline and scaling approach as both methods have similar
+It was very difficult to make SGDRegressor converge. Hence, I decided to use pipeline and scaling approach as both methods have similar
 performance in terms of R score.
 
-**[Python code can be on Google Colab]{.ul}**
+## [Python code can be on Google Colab]{.ul}
 <https://colab.research.google.com/drive/1QkAy_nKT1MZkCPqS1o0_toJ6KYs2qVku?usp=sharing>
