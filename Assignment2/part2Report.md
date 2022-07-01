@@ -1,6 +1,6 @@
-** Comparison of Sigmoid or Logistic Activation Function, Tanh and ReLU Activation Functions **
+# Comparison of Sigmoid or Logistic Activation Function, Tanh and ReLU Activation Functions
 
-Output for your dataset summarized in a tabular format for different combination of parameters.
+## Output for your dataset summarized in a tabular format for different combination of parameters.
 
 Activation =logistic
 
@@ -56,9 +56,10 @@ accuracy accuracy MSE MSE
 
 600 0.1639103 0.1573995 883.2386655 850.39107
 
-Model history plots for every model. Model history is a plot of accuracy against the number of epochs.![](Figure_1.png)
 
-**A brief report summarizing your results. For example, which activation function performed the best and why do you think so. Any assumptions that you made.**
+## Model history plots for every model. Model history is a plot of accuracy against the number of epochs.![](Figure_1.png)
+
+## A brief report summarizing your results. For example, which activation function performed the best and why do you think so. Any assumptions that you made.
 
 Selected num_hidden_layers = \[7, 5\] as the Activation function tanh performed the best as it's accuracy score 0.3628457 is highest and MSE = 573.41089 is lowest.
 
