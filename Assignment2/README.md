@@ -57,7 +57,8 @@ accuracy accuracy MSE MSE
 600 0.1639103 0.1573995 883.2386655 850.39107
 
 
-## Model history plots for every model. Model history is a plot of accuracy against the number of epochs.![](Figure_1.png)
+## Model history plots for every model. Model history is a plot of accuracy against the number of epochs.
+![](Figure_1.png)
 
 ## A brief report summarizing your results. For example, which activation function performed the best and why do you think so. Any assumptions that you made.
 
